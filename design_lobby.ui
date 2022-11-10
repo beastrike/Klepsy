@@ -50,7 +50,7 @@
      <string>KLEPSY</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="min_of_work_lineEdit">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -68,7 +68,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="min_of_break_lineEdit">
     <property name="geometry">
      <rect>
       <x>470</x>
