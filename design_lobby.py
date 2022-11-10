@@ -11,7 +11,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class Ui_DesignLobby(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(758, 600)
@@ -35,14 +35,14 @@ class Ui_MainWindow(object):
         font.setPointSize(30)
         self.min_of_work_lineEdit.setFont(font)
         self.min_of_work_lineEdit.setText("")
-        self.min_of_work_lineEdit.setObjectName("lineEdit")
+        self.min_of_work_lineEdit.setObjectName("min_of_work_lineEdit")
         self.min_of_break_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.min_of_break_lineEdit.setGeometry(QtCore.QRect(470, 220, 191, 51))
         font = QtGui.QFont()
         font.setPointSize(30)
         self.min_of_break_lineEdit.setFont(font)
         self.min_of_break_lineEdit.setText("")
-        self.min_of_break_lineEdit.setObjectName("lineEdit_2")
+        self.min_of_break_lineEdit.setObjectName("min_of_break_lineEdit")
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(50, 180, 261, 31))
         font = QtGui.QFont()
